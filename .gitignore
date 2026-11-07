@@ -1,0 +1,10 @@
+.DS_Store
+.claude/
+# Traced reference logos and processing data, not used by the page
+logos/beauty/
+logos/fashion/
+logos/food/
+logos/lifestyle/
+logos/tech/
+logos/manifest.json
+logos/wall.json
