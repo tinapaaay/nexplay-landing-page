@@ -9,7 +9,7 @@ A concept redesign of the [NEXPLAY](https://www.nexplayglobal.com/) live-commerc
 - `index.html` is the whole page. Icons, the hero star field and the brand logos are drawn inline.
 - `styles.css` holds every token from DESIGN.md as a CSS custom property at the top. The rest of the file only uses those.
 - `DESIGN.md` is the **Night Signal** design system: a near-black gradient canvas, one broadcast green from the NEXPLAY logo, liquid-glass surfaces, and DM Sans + Inter.
-- `images/` holds the page photos, and `logos/strip/` holds the 8 white logos in the "Trusted by" strip.
+- `images/` holds the page photos, and `logos/strip/` holds the 8 white logos in the "Trusted by" strip, and `logos/raster/` the 14 brand logos converted from images.
 - `BACKLOG.md` lists open items: missing photos, remaining brand logos, and details to confirm.
 
 Live-room video clips and two partner logos load from nexplayglobal.com.
@@ -25,7 +25,7 @@ npx -y @google/design.md@0.4.0 lint --format json DESIGN.md
 ## Run locally
 
 ```bash
-python3 -m http.server 8765
+python3 -m http.server 8771
 ```
 
-Then open http://localhost:8765.
+Then open http://localhost:8771.

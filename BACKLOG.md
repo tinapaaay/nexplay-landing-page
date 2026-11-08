@@ -5,14 +5,7 @@ Open items for the NEXPLAY landing page. Move an item to **Done** when it ships.
 ## To do
 
 ### Remaining brand logos
-33 brands show logos in the brand section. 15 still show as text until they have a reference-matched logo: Sugar Dolls, Snail White, Oxecure, Khaokho Talaypu, Sola, Curls, Human Nature, Physiogel, Senka, Herah, Hanes, Timex, NuPrene, Havaianas and Clorox. When you update them in the logo studio, they can be added the same way.
-- Some converted logos are small or busy at this size: CO The Collectible Store, Toblerone and Nerds. Check them when you update.
-
-### Photo: Atlas dashboard
-Still a placeholder in the Technology section. Generate with prompt #7 from the image prompts, or use a real photo. Keep the screen blurred, or drop in a real Atlas screenshot.
-
-### Trophy photo text
-The awards image is in place, but it has AI-garbled text ("Rortner", and "2025" over "2026") and TikTok Shop marks. It's hard to read at card size, but a real photo of the trophies would be safer if anyone zooms in.
+47 of 48 brands show logos. Clorox is still text, because the only image available was a watermarked stock download ("cleanpng"). It needs a clean logo file.
 
 ### Regenerate the operations floor photo
 The front-left and front-right hosts look like mirror copies, which is an AI giveaway. Add to the prompt: "each host is a different person, varied ages and genders, asymmetrical composition".
@@ -33,6 +26,9 @@ The partner logos and live-room videos load from nexplayglobal.com. Download cop
 - **Optional:** test a more concrete closing headline, e.g. "Let's plan your first live campaign".
 
 ## Done
+- Brand section: 14 more logos from supplied images, converted to white PNGs (`logos/raster/`).
+- Trophy photo cleaned: Q3 plaque label replaced with a clean "TikTok Shop Partner" label, and the stray "2025" removed from the Market Impact crystal.
+- Atlas photo slot removed (no photo available).
 - Footer social links: LinkedIn, Facebook, Instagram.
 - Brand section: 33 brand logos in white (logos where available, names for the rest), inline with their real fonts.
 - Trusted-by strip: 8 sharp white logos (Xiaomi, Philips, Casio, Honor, SanDisk, Ajinomoto, Pocky, Funko) from the logo studio, cropped and saved as local SVGs.

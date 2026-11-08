@@ -638,3 +638,4 @@ svg { display: block; }
 .social .icon { width: 20px; height: 20px; stroke: currentColor; }
 .social:hover { color: var(--color-primary); background: var(--color-surface); }
 .footer__note { max-width: 36ch; }
+img.brand-logo { height: auto; max-height: none; }
