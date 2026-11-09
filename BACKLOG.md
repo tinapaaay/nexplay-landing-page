@@ -4,21 +4,12 @@ Open items for the NEXPLAY landing page. Move an item to **Done** when it ships.
 
 ## To do
 
-### Remaining brand logos
-47 of 48 brands show logos. Clorox is still text, because the only image available was a watermarked stock download ("cleanpng"). It needs a clean logo file.
-
 ### Regenerate the operations floor photo
-The front-left and front-right hosts look like mirror copies, which is an AI giveaway. Add to the prompt: "each host is a different person, varied ages and genders, asymmetrical composition".
-
-### Phone clip in the "Human trust. AI-powered scale." card
-It currently plays the skincare live clip, which shows a real host in a card about AI hosts. Optional: swap it for a Hanford live clip or a real AI host demo.
+The front-left and front-right hosts look like mirror copies, which is an AI giveaway. Regenerate with the updated prompt: seated hosts, products on shelves behind each one, a ring light in every booth, and warm, bright booths against a darker hall for a livelier feel. Keep the 21:9 slot (generate at 16:9 and crop).
 
 ### Testimonial details to confirm with NEXPLAY
 - Bryan's surname (Marketing Director, Casio).
 - Check that Casio and World Balance both got exactly a 1,150% GMV uplift.
-
-### Self-host remote media
-The partner logos and live-room videos load from nexplayglobal.com. Download copies before sharing or hosting the page.
 
 ### Contact details to confirm with NEXPLAY
 - **Discovery call:** length, whether it's free, and the usual reply time. Then add a line under the buttons, e.g. "30-minute call · free · reply within 1 business day".
@@ -26,6 +17,9 @@ The partner logos and live-room videos load from nexplayglobal.com. Download cop
 - **Optional:** test a more concrete closing headline, e.g. "Let's plan your first live campaign".
 
 ## Done
+- All 48 brands show logos (Clorox added from a clean file).
+- Phone clip now plays the Hanford live room; the clip strip shows Health & supplements instead.
+- Media self-hosted: live clips in `media/`, partner logos in `logos/partners/`.
 - Brand section: 14 more logos from supplied images, converted to white PNGs (`logos/raster/`).
 - Trophy photo cleaned: Q3 plaque label replaced with a clean "TikTok Shop Partner" label, and the stray "2025" removed from the Market Impact crystal.
 - Atlas photo slot removed (no photo available).
