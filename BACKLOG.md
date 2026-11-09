@@ -14,6 +14,7 @@ Open items for the NEXPLAY landing page. Move an item to **Done** when it ships.
 - **Optional:** test a more concrete closing headline, e.g. "Let's plan your first live campaign".
 
 ## Done
+- Technical ops thumbnail replaced: two Filipino operators in the warm studio, matching the operations floor photo.
 - Operations floor photo replaced: warm, lit booths with seated hosts, ring lights and stocked shelves. The crop keeps the hosts in frame, and phones show the full photo.
 - All 48 brands show logos (Clorox added from a clean file).
 - Phone clip now plays the Hanford live room; the clip strip shows Health & supplements instead.
