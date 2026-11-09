@@ -17,6 +17,7 @@ The "See us live" reel has 8 clips. Ask NEXPLAY for more, ideally food, tech and
 - **Optional:** test a more concrete closing headline, e.g. "Let's plan your first live campaign".
 
 ## Done
+- Live reel critique fixes: section moved before testimonials with a call to action; desktop clips play on hover; "Replay" tags; result pill top-right; filter counts; previous/next in the viewer.
 - "See us live" showcase: 8 live-room clips with brand labels, category filters, posters, play-on-screen loading and a sound viewer. It replaces the old 4-clip strip.
 - Technical ops thumbnail replaced: two Filipino operators in the warm studio, matching the operations floor photo.
 - Operations floor photo replaced: warm, lit booths with seated hosts, ring lights and stocked shelves. The crop keeps the hosts in frame, and phones show the full photo.

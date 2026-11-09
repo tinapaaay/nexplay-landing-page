@@ -641,7 +641,7 @@ img.brand-logo { height: auto; max-height: none; }
 /* ========== Live rooms showcase ========== */
 .reel-filters { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s2); margin: 0 0 var(--s8); }
 .chip-btn {
-  min-height: 40px; padding: var(--s2) var(--s4);
+  min-height: 44px; padding: var(--s2) var(--s4);
   border-radius: var(--radius-badge);
   border: 1px solid var(--line);
   background: transparent;
@@ -700,10 +700,12 @@ img.brand-logo { height: auto; max-height: none; }
 .reel__card:hover .reel__play, .reel__card:focus-visible .reel__play { opacity: 1; transform: none; }
 @media (hover: none) { .reel__play { opacity: 1; transform: none; } }
 .reel__meta { position: absolute; left: var(--s4); right: var(--s4); bottom: var(--s4); z-index: 1; display: grid; gap: 2px; }
+.reel__live svg { width: 10px; height: 10px; fill: currentColor; }
 .reel__brand { font-family: var(--font-heading); font-weight: var(--weight-medium); font-size: var(--text-title); line-height: var(--leading-title); }
 .reel__cat { font-size: var(--text-body-sm); color: var(--color-on-surface-secondary); }
-.reel__result { justify-self: start; margin-top: var(--s2); padding: 2px var(--s2); border-radius: var(--radius-badge);
-  border: 1px solid var(--line-green); color: var(--color-primary); font-size: var(--text-caption); font-weight: var(--weight-medium); }
+.reel__result { position: absolute; top: var(--s3); right: var(--s3); z-index: 1; padding: 4px var(--s3); border-radius: var(--radius-badge);
+  border: 1px solid var(--line-green); color: var(--color-primary); font-size: var(--text-caption); font-weight: var(--weight-medium);
+  background: color-mix(in srgb, var(--color-neutral-deep) 70%, transparent); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); }
 @media (prefers-reduced-motion: reduce) { .reel__video, .reel__play { transition: none; } .reel__card:hover .reel__video { transform: none; } }
 
 /* Viewer (watch with sound) */
@@ -721,3 +723,16 @@ img.brand-logo { height: auto; max-height: none; }
 }
 .viewer__close svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
 .viewer__close:hover { border-color: var(--color-primary); color: var(--color-primary); }
+
+.chip-count { margin-left: 2px; opacity: .6; font-variant-numeric: tabular-nums; }
+.reel-cta { display: grid; justify-items: center; gap: var(--s4); margin-top: var(--s8); text-align: center; }
+.viewer__info { display: grid; justify-items: center; gap: 2px; text-align: center; flex: 1; }
+.viewer__count { font-size: var(--text-caption); color: var(--color-on-surface-muted); font-variant-numeric: tabular-nums; }
+.viewer__nav {
+  width: 44px; height: 44px; display: grid; place-items: center; flex: none;
+  border-radius: var(--radius-full); border: 1px solid var(--color-glass-edge);
+  background: var(--glass-fill); color: var(--color-on-surface); cursor: pointer;
+}
+.viewer__nav svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.viewer__nav:hover { border-color: var(--color-primary); color: var(--color-primary); }
+.viewer__bar .viewer__close { margin-left: var(--s2); }   /* kept below the video, away from the clip's own on-screen icons */
