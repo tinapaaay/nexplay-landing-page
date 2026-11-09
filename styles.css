@@ -639,3 +639,6 @@ svg { display: block; }
 .social:hover { color: var(--color-primary); background: var(--color-surface); }
 .footer__note { max-width: 36ch; }
 img.brand-logo { height: auto; max-height: none; }
+/* Operations floor: keep the seated hosts in frame (not the ceiling); show the whole photo on phones */
+.photo-wide { object-position: center 70%; }
+@media (max-width: 640px) { .photo-wide { aspect-ratio: 16 / 9; } }
