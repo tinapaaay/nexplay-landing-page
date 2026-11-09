@@ -4,6 +4,9 @@ Open items for the NEXPLAY landing page. Move an item to **Done** when it ships.
 
 ## To do
 
+### More live clips
+The "See us live" reel has 8 clips. Ask NEXPLAY for more, ideally food, tech and a mega-live event, each with the brand name and any result to show. Also confirm the partner brands are okay with their streams being showcased, and get the brand name for the Beauty & wellness clip.
+
 ### Testimonial details to confirm with NEXPLAY
 - Bryan's surname (Marketing Director, Casio).
 - Check that Casio and World Balance both got exactly a 1,150% GMV uplift.
@@ -14,6 +17,7 @@ Open items for the NEXPLAY landing page. Move an item to **Done** when it ships.
 - **Optional:** test a more concrete closing headline, e.g. "Let's plan your first live campaign".
 
 ## Done
+- "See us live" showcase: 8 live-room clips with brand labels, category filters, posters, play-on-screen loading and a sound viewer. It replaces the old 4-clip strip.
 - Technical ops thumbnail replaced: two Filipino operators in the warm studio, matching the operations floor photo.
 - Operations floor photo replaced: warm, lit booths with seated hosts, ring lights and stocked shelves. The crop keeps the hosts in frame, and phones show the full photo.
 - All 48 brands show logos (Clorox added from a clean file).

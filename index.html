@@ -22,6 +22,7 @@
       <a href="#services">Services</a>
       <a href="#scale">Scale</a>
       <a href="#technology">Technology</a>
+      <a href="#live">Live rooms</a>
       <a href="#partners">Partners</a>
     </nav>
     <div class="nav__right">
@@ -165,13 +166,6 @@
         <ul class="cap-card__subs"><li>Content strategy</li><li>Live-ready creative</li><li>Content reuse</li></ul>
       </article>
     </div>
-    <div class="rooms-strip">
-      <figure class="room"><video class="room__video" src="media/live-01-personal-care.mp4#t=1" muted loop playsinline autoplay preload="metadata" aria-label="Personal care live room"></video><figcaption class="room__tag"><span class="dot dot--pulse"></span>Personal care</figcaption></figure>
-      <figure class="room"><video class="room__video" src="media/live-02-watches.mp4#t=1" muted loop playsinline autoplay preload="metadata" aria-label="Watches live room"></video><figcaption class="room__tag"><span class="dot dot--pulse"></span>Watches</figcaption></figure>
-      <figure class="room"><video class="room__video" src="media/live-04-beauty-fragrance.mp4#t=1" muted loop playsinline autoplay preload="metadata" aria-label="Beauty &amp; fragrance live room"></video><figcaption class="room__tag"><span class="dot dot--pulse"></span>Beauty &amp; fragrance</figcaption></figure>
-      <figure class="room"><video class="room__video" src="media/live-06-health-supplements.mp4#t=1" muted loop playsinline autoplay preload="metadata" aria-label="Health &amp; supplements live room"></video><figcaption class="room__tag"><span class="dot dot--pulse"></span>Health &amp; supplements</figcaption></figure>
-    </div>
-    <p class="caption note">Clips from NEXPLAY live rooms.</p>
   </div>
 </section>
 
@@ -405,6 +399,100 @@
   </div>
 </section>
 
+<!-- Live rooms showcase -->
+<section class="section" id="live">
+  <div class="wrap">
+    <div class="head">
+      <span class="badge"><span class="dot dot--pulse"></span>Real streams</span>
+      <h2 class="h2">See us live</h2>
+      <p class="lead">Clips from NEXPLAY live rooms across beauty, fashion, health and lifestyle. Tap any clip to watch it with sound.</p>
+    </div>
+    <div class="reel-filters" role="group" aria-label="Filter live rooms by category">
+      <button type="button" class="chip-btn" aria-pressed="true" data-filter="all">All</button>
+      <button type="button" class="chip-btn" aria-pressed="false" data-filter="beauty">Beauty</button>
+      <button type="button" class="chip-btn" aria-pressed="false" data-filter="fashion">Fashion</button>
+      <button type="button" class="chip-btn" aria-pressed="false" data-filter="health">Health</button>
+      <button type="button" class="chip-btn" aria-pressed="false" data-filter="lifestyle">Lifestyle</button>
+    </div>
+    <ul class="reel" id="reel">
+        <li class="reel__item" data-cat="beauty">
+          <button class="reel__card" type="button" data-src="media/live-01-personal-care.mp4" data-title="Hikari · Personal care" aria-label="Watch the Hikari Personal care live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/01-personal-care.jpg" data-src="media/live-01-personal-care.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__brand">Hikari</span><span class="reel__cat">Personal care</span></span>
+          </button>
+        </li>
+        <li class="reel__item" data-cat="fashion">
+          <button class="reel__card" type="button" data-src="media/live-02-watches.mp4" data-title="Casio · Watches" aria-label="Watch the Casio Watches live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/02-watches.jpg" data-src="media/live-02-watches.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__brand">Casio</span><span class="reel__cat">Watches</span><span class="reel__result">+1,150% GMV</span></span>
+          </button>
+        </li>
+        <li class="reel__item" data-cat="beauty">
+          <button class="reel__card" type="button" data-src="media/live-03-skincare.mp4" data-title="Dermorepublic · Skincare" aria-label="Watch the Dermorepublic Skincare live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/03-skincare.jpg" data-src="media/live-03-skincare.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__brand">Dermorepublic</span><span class="reel__cat">Skincare</span></span>
+          </button>
+        </li>
+        <li class="reel__item" data-cat="beauty">
+          <button class="reel__card" type="button" data-src="media/live-04-beauty-fragrance.mp4" data-title="Sugar Dolls · Beauty &amp; fragrance" aria-label="Watch the Sugar Dolls Beauty and fragrance live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/04-beauty-fragrance.jpg" data-src="media/live-04-beauty-fragrance.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__brand">Sugar Dolls</span><span class="reel__cat">Beauty &amp; fragrance</span></span>
+          </button>
+        </li>
+        <li class="reel__item" data-cat="fashion">
+          <button class="reel__card" type="button" data-src="media/live-05-apparel.mp4" data-title="Hanford · Apparel" aria-label="Watch the Hanford Apparel live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/05-apparel.jpg" data-src="media/live-05-apparel.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__brand">Hanford</span><span class="reel__cat">Apparel</span></span>
+          </button>
+        </li>
+        <li class="reel__item" data-cat="health">
+          <button class="reel__card" type="button" data-src="media/live-06-health-supplements.mp4" data-title="Goodies Nutrition · Health &amp; supplements" aria-label="Watch the Goodies Nutrition Health and supplements live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/06-health-supplements.jpg" data-src="media/live-06-health-supplements.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__brand">Goodies Nutrition</span><span class="reel__cat">Health &amp; supplements</span></span>
+          </button>
+        </li>
+        <li class="reel__item" data-cat="lifestyle">
+          <button class="reel__card" type="button" data-src="media/live-07-bags-accessories.mp4" data-title="Straightforward · Bags &amp; accessories" aria-label="Watch the Straightforward Bags and accessories live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/07-bags-accessories.jpg" data-src="media/live-07-bags-accessories.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__brand">Straightforward</span><span class="reel__cat">Bags &amp; accessories</span></span>
+          </button>
+        </li>
+        <li class="reel__item" data-cat="beauty">
+          <button class="reel__card" type="button" data-src="media/live-08-beauty-wellness.mp4" data-title="Beauty &amp; wellness" aria-label="Watch a Beauty and wellness live room with sound">
+            <video class="reel__video" muted loop playsinline preload="none" poster="media/posters/08-beauty-wellness.jpg" data-src="media/live-08-beauty-wellness.mp4#t=1" aria-hidden="true"></video>
+            <span class="reel__live"><span class="dot dot--pulse"></span>Live</span>
+            <span class="reel__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="reel__meta"><span class="reel__cat">Beauty &amp; wellness</span></span>
+          </button>
+        </li>
+    </ul>
+    <p class="caption note">Clips from NEXPLAY live rooms on Shopee and TikTok Shop. Results from partner feedback.</p>
+  </div>
+  <dialog class="viewer" id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer__frame">
+      <video class="viewer__video" controls playsinline></video>
+      <div class="viewer__bar">
+        <span class="viewer__title" id="viewer-title"></span>
+        <button type="button" class="viewer__close" aria-label="Close video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+    </div>
+  </dialog>
+</section>
+
 <!-- Closing CTA -->
 <section class="section closer" id="contact">
   <div class="wrap">
@@ -449,6 +537,56 @@
   </div>
 </footer>
 
+<script>
+/* Live rooms showcase: lazy clips, category filter, sound viewer */
+(function () {
+  const reel = document.getElementById("reel");
+  if (!reel) return;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const vids = [...reel.querySelectorAll(".reel__video")];
+  // Load + play only while on screen; pause when scrolled away
+  const io = new IntersectionObserver(entries => {
+    for (const e of entries) {
+      const v = e.target;
+      if (e.isIntersecting) {
+        if (!v.getAttribute("src")) v.src = v.dataset.src;
+        if (!reduce) v.play().catch(() => {});
+      } else {
+        v.pause();
+      }
+    }
+  }, { rootMargin: "120px 0px", threshold: 0.25 });
+  vids.forEach(v => io.observe(v));
+
+  // Category filter
+  const btns = [...document.querySelectorAll(".reel-filters .chip-btn")];
+  btns.forEach(b => b.addEventListener("click", () => {
+    btns.forEach(x => x.setAttribute("aria-pressed", x === b));
+    const f = b.dataset.filter;
+    reel.querySelectorAll(".reel__item").forEach(li => { li.hidden = f !== "all" && li.dataset.cat !== f; });
+  }));
+
+  // Viewer with sound
+  const dlg = document.getElementById("viewer");
+  const big = dlg.querySelector(".viewer__video");
+  const title = dlg.querySelector(".viewer__title");
+  let opener = null;
+  reel.addEventListener("click", e => {
+    const card = e.target.closest(".reel__card");
+    if (!card) return;
+    opener = card;
+    title.textContent = card.dataset.title;
+    big.src = card.dataset.src;
+    big.muted = false;
+    dlg.showModal();
+    big.play().catch(() => {});
+  });
+  const close = () => dlg.close();
+  dlg.querySelector(".viewer__close").addEventListener("click", close);
+  dlg.addEventListener("click", e => { if (e.target === dlg) close(); });
+  dlg.addEventListener("close", () => { big.pause(); big.removeAttribute("src"); big.load(); if (opener) opener.focus(); });
+})();
+</script>
 <script>
 /* Outlined icons (1.5px stroke, set in CSS) */
 const icons = {

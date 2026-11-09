@@ -12,7 +12,7 @@ A concept redesign of the [NEXPLAY](https://www.nexplayglobal.com/) live-commerc
 - `images/` holds the page photos, and `logos/strip/` holds the 8 white logos in the "Trusted by" strip, and `logos/raster/` the 15 brand logos converted from images.
 - `BACKLOG.md` lists open items: missing photos, remaining brand logos, and details to confirm.
 
-Everything is self-hosted: live-room clips are in `media/`, and the partner logos used in testimonials are in `logos/partners/`. Both are copied from nexplayglobal.com.
+Everything is self-hosted: live-room clips are in `media/` (with still posters in `media/posters/`), and the partner logos used in testimonials are in `logos/partners/`. Both are copied from nexplayglobal.com.
 
 ## Design system
 
