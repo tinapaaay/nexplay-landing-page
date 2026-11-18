@@ -5,7 +5,7 @@ Open items for the NEXPLAY landing page. Move an item to **Done** when it ships.
 ## To do
 
 ### More live clips
-The "See us live" reel has 8 clips. Ask NEXPLAY for more, ideally food, tech and a mega-live event, each with the brand name and any result to show. Also confirm the partner brands are okay with their streams being showcased, and get the brand name for the Beauty & wellness clip.
+The "See us live" switcher has 8 clips, and its wall has room for exactly 8 plus the "Your brand" tile, so more clips will need a paged or scrolling wall. Ask NEXPLAY for more, ideally food, tech and a mega-live event, each with the brand name and any result to show. Also confirm the partner brands are okay with their streams being showcased, and get the brand name for the Beauty & wellness clip.
 
 ### Testimonial details to confirm with NEXPLAY
 - Bryan's surname (Marketing Director, Casio).
@@ -17,6 +17,7 @@ The "See us live" reel has 8 clips. Ask NEXPLAY for more, ideally food, tech and
 - **Optional:** test a more concrete closing headline, e.g. "Let's plan your first live campaign".
 
 ## Done
+- "See us live" redesigned as a live room switcher: one program screen, eight source tiles and a "Your brand" slot.
 - Live reel critique fixes: section moved before testimonials with a call to action; desktop clips play on hover; "Replay" tags; result pill top-right; filter counts; previous/next in the viewer.
 - "See us live" showcase: 8 live-room clips with brand labels, category filters, posters, play-on-screen loading and a sound viewer. It replaces the old 4-clip strip.
 - Technical ops thumbnail replaced: two Filipino operators in the warm studio, matching the operations floor photo.
